@@ -1,4 +1,4 @@
-# SQL Sales & Customer Insights (500K+ Records)
+# SQL-Based Sales and Customer Insights:
 
 ## Project Overview
 In this project, I built a relational database from scratch to analyze **500,000+ sales records**. I focused on identifying revenue trends and high-value customers using advanced SQL techniques.
