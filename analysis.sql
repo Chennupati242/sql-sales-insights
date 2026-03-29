@@ -14,3 +14,12 @@ SELECT
 FROM sales
 GROUP BY sale_date
 ORDER BY sale_date ASC;
+-- Query 3: Revenue by Product Category
+-- This query joins the Sales and Products tables to see which category performs best.
+SELECT 
+    p.category, 
+    SUM(s.total_amount) AS revenue_by_category
+FROM sales s
+JOIN products p ON s.product_id = p.product_id
+GROUP BY p.category
+ORDER BY revenue_by_category DESC;
